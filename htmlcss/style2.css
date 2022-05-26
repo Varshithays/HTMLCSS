@@ -1,0 +1,68 @@
+/*body{
+    
+    font-family: sans-serif;
+}
+p{
+    font-family: cursive;
+}
+.a {
+    
+    font-size: xx-small;
+}
+
+.a{
+    font-size: x-small;
+    
+}
+.c{
+    font-size: small;
+}
+.d{
+    font-size: medium;
+}
+.e{
+    font-size: large;
+}
+.f{
+    font-size: x-large;
+}
+.g{
+    font-size: xx-large;
+}
+.h{
+    font-size: 10px ;
+}
+p{
+    font-style: normal;
+}
+p{
+    font-family: cursive;
+    
+    font-weight: bolder;
+}
+
+100 Thin
+200 Extra light
+300 light
+400 Normal
+500 Medium
+600 Semi bold
+700 bold
+800 Extra Bold
+900 Ultra Bold
+p{
+    color: rgb(0,255,0);
+       
+}
+div{
+    
+    background-color: rgb(255,0,0);
+    width: 300px;
+    height: 200px;
+    
+    /* rgb(red,green,blue)
+}*/
+div{
+    
+    text-align: center;
+}

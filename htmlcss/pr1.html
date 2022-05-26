@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Booking Form - XYZ Hotels </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="path/to/css/smart-forms.css">
+    <link rel="stylesheet" href="path/to/css/font-awesome.min.css">      
+    </head>
+    <script src="pr1.js" type="text/javascript"></script>
+  <body>
+	<div>
+    <form action="">
+    <br><b>Where do you want to go</b>
+    <br><select id="selectDestination">
+          <option>Choose a destination</option>
+        </select>
+    <br><b>Pick a booking date</b>
+    <br><input type="date" id="date">
+    
+    <br><b>Amount of days you wish to stay</b>
+    <br><input type="number" id="number" data-price="20">
+    
+    <br><b>How many single rooms? </b>
+    <br><select id="selectRom" data-price="12">
+          <option>How many single rooms?</option>
+        </select>
+        
+    <br><b>How many double rooms?</b>
+    <br><select id="selectRom2" data-price="15">
+          <option>How many double rooms?</option>
+        </select>
+    <br>
+    <input type="button" id="myb" value="Confirm order">
+    <br>
+    <textarea id="order" cols="35" rows="3"></textarea>
+
+    </form>
+		<div id="totalPrice"></div>
+
+	</div>
+	</body>
+  <!-- You wish to order [selectDestination] for [days] with [selectRom] single rooms and [selectRom2] double rooms. Wish/wish not to rent equipment depending on what is clicked on in checkboxes. For total [endPrice]-->
+        <div class="smart-wrap">
+  
+
+</html>

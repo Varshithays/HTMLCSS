@@ -1,0 +1,57 @@
+body{
+    background-color: antiquewhite;
+    padding: 25px;
+    align-items: center;
+    background-image: url("http://www.mmtqc.com/test/bgswitcher/jQuery-Plugin-For-Responsive-Full-Screen-Image-Slider-bgswitcher/jQuery-Plugin-For-Responsive-Full-Screen-Image-Slider-bgswitcher/Source/images/img-slider-2.jpg") ;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-color: blueviolet;
+}
+
+h3{
+    color: blueviolet;
+    text-underline-position: below;
+    text-align: center;
+}
+p1{
+    color: navy;
+    font-size: 20px;
+}
+p2{
+    color: white;
+    font-size: 20px;
+}
+p3{
+    
+}
+img{
+    background: transparent;
+    border-image: url("1t.jpg");
+    display: block;
+    border: 20px;
+    border-color: 
+}
+h1{
+    color:cornflowerblue;
+    text-align: center;
+    background-color: blanchedalmond;
+    text-decoration-line: underline;
+}
+<div{
+    text-align:center;
+    width: 100%;
+}
+div > iframe {
+    width: 200px;
+}
+<div>
+<iframe></iframe>
+</div>
+ /** {
+    text-align: justify-all;
+    color: chocolate;
+     animation-fill-mode: backwards;
+     align-items: center;
+        
+}*/

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+body{
+    background-color: lightcyan;
+    
+}
+.column{
+    float:left;
+    width:40%;
+    padding:5px;
+}
+.row::after{
+    content: normal;
+    clear: both;
+display: block
+}
+@media screen and(max-width: 500px) {
+    .column{
+        width:100%;
+    }
+}
+.container.content{
+    text-align: center;
+}
+.container{
+    border-color: black;
+    padding-left:500px;
+    place-items:center;
+    background:linear-gradient(rgba(0,0,0,.3)) ,url( "https://source.unsplash.com/random/300x300/?forest,ocean,travel") no-repeat;
+}
+    
+}
+
+.header{
+    padding: 100px;
+    padding-left: 100px;
+    background: black;
+    margin:auto;
+
+}
+h1{
+    background-color:cadetblue;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-underline-position: below;
+    text-align: center;
+    border: 5px;
+    margin: 20px 300px 50px 40px;
+    padding: 50px;
+    width: 1000px;
+    font-family: sans-serif 
+}
+h4{
+    text-align: center;
+}

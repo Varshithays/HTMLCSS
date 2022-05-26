@@ -1,0 +1,15 @@
+.column{
+    float:left;
+    width:40%;
+    padding-left: 30px;
+}
+.row::after{
+    content: normal;
+    clear: both;
+display: block
+}
+@media screen and(max-width: 800px) {
+    .column{
+        width:800%;
+    }
+}
