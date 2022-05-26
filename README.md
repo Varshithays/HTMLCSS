@@ -1,2 +1,2 @@
 # HTMLCSSand Javascript
-HTML and CSS course practices and some projects
+HTML and CSS& JS course practices and some projects
